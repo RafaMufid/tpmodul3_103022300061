@@ -16,5 +16,10 @@ namespace tpmodul3_103022300061
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            output.Text = input.Text;
+        }
     }
 }
